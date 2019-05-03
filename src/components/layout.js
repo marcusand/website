@@ -9,9 +9,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 
-import Header from './header';
 import BackgroundImage from './backgroundImage';
-import './layout.css';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -28,7 +26,6 @@ const Layout = ({ children }) => (
       <>
         <div>
           <BackgroundImage/>
-          <Header siteTitle={data.site.siteMetadata.title} />
           <main>{children}</main>
         </div>
       </>
