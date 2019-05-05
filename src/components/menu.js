@@ -1,5 +1,6 @@
 // import PropTypes from 'prop-types';
 import React from 'react';
+import MenuItem from './menuItem';
 import userIcon from '../images/icon.png';
 import '../styles/menu.scss';
 
@@ -11,14 +12,13 @@ const Menu = () => (
     </header>
     <section>
       <div className="menu-left">
-        item <br></br>
-        item <br></br>
-        item <br></br>
+        <MenuItem title="About"/>
+        <MenuItem title="CV"/>
+        <MenuItem title="Work"/>
+        <MenuItem title="Contact"/>
+        <MenuItem title="Hallohallo"/>
       </div>
       <div className="menu-right">
-      item <br></br>
-      item <br></br>
-      item <br></br>
       </div>
     </section>
     <footer>

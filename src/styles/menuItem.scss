@@ -1,0 +1,19 @@
+.menu-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  margin-bottom: 4px;
+
+  &:hover {
+    background: #2F70CD;
+  }
+
+  .menu-item-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .menu-item-title {
+  }
+}
