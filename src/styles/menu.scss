@@ -79,6 +79,12 @@
   }
 
   section {
+    display: flex;
+    margin: 0 2px;
+    position: relative;
+    border-top: 1px solid #385de7;
+    box-shadow: 0 1px #385de7;
+    
     .menu-left {
       background-color: #fff;
       padding: 6px 5px 0;
