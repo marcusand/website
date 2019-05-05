@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={data => ( /* eslint-disable-line */
       <>
         <div>
           <BackgroundImage/>
