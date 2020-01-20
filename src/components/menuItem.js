@@ -3,7 +3,6 @@ import React from 'react';
 import defaultIcon from '../images/icon.png';
 import '../styles/menuItem.scss';
 
-
 const MenuItem = ({ icon, title }) => (
   <div className="menu-item">
     <img className="menu-item-icon" src={icon} />
